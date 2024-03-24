@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/users/btech/pk/Documents/Lab2_1/two_bit_adder/two_bit_adder_top_isim_beh.exe" -prj "/users/btech/pk/Documents/Lab2_1/two_bit_adder/two_bit_adder_top_beh.prj" "work.two_bit_adder_top" "work.glbl" 

@@ -1,0 +1,29 @@
+Command line:
+   rotary_shaft_encoder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34239
+
+Wed Feb 14 15:31:30 2024
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 185.319 Meg
+
+ Total Signals          : 32
+ Total Nets             : 26
+ Total Signal Drivers   : 15
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 19
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 117
+Total Line Count : 54
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 260.821 Meg
+
+Wed Feb 14 15:31:36 2024
+

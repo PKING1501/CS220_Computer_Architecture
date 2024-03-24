@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Feb  7 16:32:12 2024
+# Process ID: 1562053
+# Log file: /users/btech/pk/Documents/Lab4_1/lcd_driver/planAhead_run_1/planAhead.log
+# Journal file: /users/btech/pk/Documents/Lab4_1/lcd_driver/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/pk/Documents/Lab4_1/lcd_driver/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C9 [get_ports clk]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list led_e]]
+set_property package_pin "" [get_ports [list  led_e]]

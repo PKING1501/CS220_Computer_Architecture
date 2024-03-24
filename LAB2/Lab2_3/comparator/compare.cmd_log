@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab2_3/comparator/compare.xst" -ofn "/users/btech/pk/Documents/Lab2_3/comparator/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc3s500e-fg320-4 compare.ngc compare.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -t 1 compare_map.ncd compare.ncd compare.pcf 
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab2_3/comparator/compare.xst" -ofn "/users/btech/pk/Documents/Lab2_3/comparator/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc3s500e-fg320-4 compare.ngc compare.ngd  
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab2_3/comparator/compare.xst" -ofn "/users/btech/pk/Documents/Lab2_3/comparator/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc3s500e-fg320-4 compare.ngc compare.ngd  
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab2_3/comparator/compare.xst" -ofn "/users/btech/pk/Documents/Lab2_3/comparator/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc3s500e-fg320-4 compare.ngc compare.ngd  
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab2_3/comparator/compare.xst" -ofn "/users/btech/pk/Documents/Lab2_3/comparator/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc3s500e-fg320-4 compare.ngc compare.ngd  
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab2_3/comparator/compare.xst" -ofn "/users/btech/pk/Documents/Lab2_3/comparator/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc3s500e-fg320-4 compare.ngc compare.ngd  
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab2_3/comparator/compare.xst" -ofn "/users/btech/pk/Documents/Lab2_3/comparator/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc3s500e-fg320-4 compare.ngc compare.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -t 1 compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 

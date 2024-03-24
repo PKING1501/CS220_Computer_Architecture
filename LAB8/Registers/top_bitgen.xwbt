@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/users/btech/rajvm22/Documents/Lab_8_New/Registers/top.ncd
+OUTFILE=/users/btech/rajvm22/Documents/Lab_8_New/Registers/top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/users/btech/rajvm22/Documents/Lab_8_New/Registers
+LICENSE=WebPack
+USER_INFO=212889031_0_0_039

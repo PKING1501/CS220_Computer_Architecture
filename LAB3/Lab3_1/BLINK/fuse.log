@@ -1,0 +1,21 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /users/btech/pk/Documents/Lab3_1/BLINK/BLINK_top_isim_beh.exe -prj /users/btech/pk/Documents/Lab3_1/BLINK/BLINK_top_beh.prj work.BLINK_top work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/users/btech/pk/Documents/Lab3_1/BLINK/BLINK.v" into library work
+Analyzing Verilog file "/users/btech/pk/Documents/Lab3_1/BLINK/BLINK_top.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 82796 KB
+Fuse CPU Usage: 1060 ms
+Compiling module BLINK
+Compiling module BLINK_top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable /users/btech/pk/Documents/Lab3_1/BLINK/BLINK_top_isim_beh.exe
+Fuse Memory Usage: 642984 KB
+Fuse CPU Usage: 1080 ms
+GCC CPU Usage: 320 ms

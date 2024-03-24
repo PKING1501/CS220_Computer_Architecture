@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/btech/pk/Documents/Lab4_1/lcd_driver/impact.xsl
+OUTFILE=/users/btech/pk/Documents/Lab4_1/lcd_driver/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/btech/pk/Documents/Lab4_1/lcd_driver
+LICENSE=iMPACT
+USER_INFO=iMPACT

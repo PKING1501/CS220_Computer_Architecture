@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab3_1/BLINK/BLINK.xst" -ofn "/users/btech/pk/Documents/Lab3_1/BLINK/BLINK.syr" 
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab3_1/BLINK/BLINK.xst" -ofn "/users/btech/pk/Documents/Lab3_1/BLINK/BLINK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BLINK.ucf -p xc3s500e-fg320-4 BLINK.ngc BLINK.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o BLINK_map.ncd BLINK.ngd BLINK.pcf 
+par -w -intstyle ise -ol high -t 1 BLINK_map.ncd BLINK.ncd BLINK.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BLINK.twx BLINK.ncd -o BLINK.twr BLINK.pcf -ucf BLINK.ucf 
+bitgen -intstyle ise -f BLINK.ut BLINK.ncd 

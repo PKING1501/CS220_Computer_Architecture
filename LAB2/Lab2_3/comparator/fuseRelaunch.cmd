@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/users/btech/pk/Documents/Lab2_3/comparator/compare_top_isim_beh.exe" -prj "/users/btech/pk/Documents/Lab2_3/comparator/compare_top_beh.prj" "work.compare_top" "work.glbl" 

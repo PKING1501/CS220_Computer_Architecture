@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/users/btech/pk/Documents/Lab3_2/R_LED/R_LED.xst" -ofn "/users/btech/pk/Documents/Lab3_2/R_LED/R_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc R_LED.ucf -p xc3s500e-fg320-4 R_LED.ngc R_LED.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o R_LED_map.ncd R_LED.ngd R_LED.pcf 
+par -w -intstyle ise -ol high -t 1 R_LED_map.ncd R_LED.ncd R_LED.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml R_LED.twx R_LED.ncd -o R_LED.twr R_LED.pcf -ucf R_LED.ucf 
+bitgen -intstyle ise -f R_LED.ut R_LED.ncd 

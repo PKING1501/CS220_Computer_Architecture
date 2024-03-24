@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /users/btech/rajvm22/Documents/LAB6/seven_bit_adder/seven_bit_adder_isim_beh.exe -prj /users/btech/rajvm22/Documents/LAB6/seven_bit_adder/seven_bit_adder_beh.prj work.seven_bit_adder work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/users/btech/rajvm22/Documents/LAB6/seven_bit_adder/seven_bit_adder.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 82820 KB
+Fuse CPU Usage: 2390 ms
+Compiling module rotary_shaft
+Compiling module one_bit_adder
+Compiling module seven_bit_adder
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable /users/btech/rajvm22/Documents/LAB6/seven_bit_adder/seven_bit_adder_isim_beh.exe
+Fuse Memory Usage: 642988 KB
+Fuse CPU Usage: 2420 ms
+GCC CPU Usage: 970 ms

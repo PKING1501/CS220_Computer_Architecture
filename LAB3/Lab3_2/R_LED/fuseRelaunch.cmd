@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/users/btech/pk/Documents/Lab3_2/R_LED/R_LED_top_isim_beh.exe" -prj "/users/btech/pk/Documents/Lab3_2/R_LED/R_LED_top_beh.prj" "work.R_LED_top" "work.glbl" 

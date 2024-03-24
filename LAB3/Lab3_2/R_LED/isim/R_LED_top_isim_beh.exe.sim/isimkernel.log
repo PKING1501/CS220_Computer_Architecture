@@ -1,0 +1,29 @@
+Command line:
+   R_LED_top_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  38517
+
+Wed Jan 31 15:39:40 2024
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 185.311 Meg
+
+ Total Signals          : 22
+ Total Nets             : 22
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 20
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 143
+Total Line Count : 41
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 260.813 Meg
+
+Wed Jan 31 15:39:55 2024
+

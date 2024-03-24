@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/btech/pk/Documents/CS220LABS/LAB1_1/full_adder/impact.xsl
+OUTFILE=/users/btech/pk/Documents/CS220LABS/LAB1_1/full_adder/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/btech/pk/Documents/CS220LABS/LAB1_1/full_adder
+LICENSE=iMPACT
+USER_INFO=iMPACT

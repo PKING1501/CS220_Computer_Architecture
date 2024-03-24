@@ -1,0 +1,12 @@
+[Inputs]
+clk
+ROT_A
+ROT_B
+=num[3:0]=
+[Outputs]
+overflow
+=sum[6:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel seven_bit_adder
+

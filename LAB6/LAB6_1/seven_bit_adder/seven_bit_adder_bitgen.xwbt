@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/users/btech/rajvm22/Documents/LAB6/seven_bit_adder/seven_bit_adder.ncd
+OUTFILE=/users/btech/rajvm22/Documents/LAB6/seven_bit_adder/seven_bit_adder.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/users/btech/rajvm22/Documents/LAB6/seven_bit_adder
+LICENSE=WebPack
+USER_INFO=212889031_0_0_039

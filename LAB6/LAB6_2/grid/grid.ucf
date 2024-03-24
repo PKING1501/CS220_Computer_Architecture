@@ -1,0 +1,47 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "z[0]" LOC = L13;
+NET "z[1]" LOC = L14;
+NET "z[2]" LOC = H18;
+NET "z[3]" LOC = N17;
+
+# PlanAhead Generated IO constraints 
+
+NET "z[3]" IOSTANDARD = LVTTL;
+NET "z[2]" IOSTANDARD = LVTTL;
+NET "z[1]" IOSTANDARD = LVTTL;
+NET "z[0]" IOSTANDARD = LVTTL;
+NET "z[3]" PULLUP;
+NET "z[2]" PULLUP;
+NET "z[1]" PULLUP;
+NET "z[0]" PULLUP;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = C9;
+NET "ROT_A" LOC = K18;
+NET "ROT_B" LOC = G18;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS25;
+NET "ROT_A" IOSTANDARD = LVTTL;
+NET "ROT_B" IOSTANDARD = LVTTL;
+NET "ROT_B" PULLUP;
+NET "ROT_A" PULLUP;
+NET "x[3]" IOSTANDARD = LVCMOS25;
+NET "x[2]" IOSTANDARD = LVCMOS25;
+NET "x[1]" IOSTANDARD = LVCMOS25;
+NET "x[0]" IOSTANDARD = LVCMOS25;
+
+# PlanAhead Generated physical constraints 
+
+NET "x[0]" LOC = F12;
+NET "x[1]" LOC = E12;
+NET "x[2]" LOC = E11;
+NET "x[3]" LOC = F11;
+NET "y[0]" LOC = C11;
+NET "y[1]" LOC = D11;
+NET "y[2]" LOC = E9;
+NET "y[3]" LOC = F9;

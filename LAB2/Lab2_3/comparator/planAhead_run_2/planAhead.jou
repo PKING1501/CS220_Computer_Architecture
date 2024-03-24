@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Jan 29 13:31:49 2024
+# Process ID: 34705
+# Log file: /users/btech/pk/Documents/Lab2_3/comparator/planAhead_run_2/planAhead.log
+# Journal file: /users/btech/pk/Documents/Lab2_3/comparator/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/pk/Documents/Lab2_3/comparator/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

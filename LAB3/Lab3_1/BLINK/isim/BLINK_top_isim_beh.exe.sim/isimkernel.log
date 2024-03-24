@@ -1,0 +1,29 @@
+Command line:
+   BLINK_top_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52197
+
+Wed Jan 31 15:28:33 2024
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 185.311 Meg
+
+ Total Signals          : 15
+ Total Nets             : 15
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 129
+Total Line Count : 36
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 260.813 Meg
+
+Wed Jan 31 15:28:40 2024
+

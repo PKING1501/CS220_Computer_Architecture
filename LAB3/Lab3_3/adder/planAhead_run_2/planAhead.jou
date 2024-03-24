@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Jan 31 16:39:15 2024
+# Process ID: 74541
+# Log file: /users/btech/pk/Documents/Lab3_3/adder/planAhead_run_2/planAhead.log
+# Journal file: /users/btech/pk/Documents/Lab3_3/adder/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/pk/Documents/Lab3_3/adder/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property pulltype PULLDOWN [get_ports [list PB1]]
+set_property pulltype PULLDOWN [get_ports [list PB2]]
+set_property pulltype PULLDOWN [get_ports [list PB3]]
+set_property pulltype PULLDOWN [get_ports [list PB4]]
+set_property pulltype PULLDOWN [get_ports [list PB5]]
+set_property pulltype PULLUP [get_ports [list {Y[3]} {Y[2]} {Y[1]} {Y[0]}]]
+save_constraints

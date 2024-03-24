@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/users/btech/rajvm22/Documents/LAB5_1/rotary_shaft_encoder/rotary_shaft_encoder_isim_beh.exe" -prj "/users/btech/rajvm22/Documents/LAB5_1/rotary_shaft_encoder/rotary_shaft_encoder_beh.prj" "work.rotary_shaft_encoder" "work.glbl" 

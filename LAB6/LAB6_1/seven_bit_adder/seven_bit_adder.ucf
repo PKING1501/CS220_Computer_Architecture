@@ -1,0 +1,33 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "num[0]" LOC = L13;
+NET "num[1]" LOC = L14;
+NET "num[2]" LOC = H18;
+NET "num[3]" LOC = N17;
+NET "sum[1]" LOC = E12;
+NET "sum[2]" LOC = E11;
+NET "sum[3]" LOC = F11;
+NET "sum[4]" LOC = C11;
+NET "sum[5]" LOC = D11;
+NET "sum[6]" LOC = E9;
+NET "ROT_B" LOC = G18;
+NET "overflow" LOC = F9;
+NET "clk" LOC = C9;
+NET "sum[0]" LOC = F12;
+NET "ROT_A" LOC = K18;
+
+# PlanAhead Generated IO constraints 
+
+NET "ROT_A" IOSTANDARD = LVTTL;
+NET "ROT_B" IOSTANDARD = LVTTL;
+NET "num[3]" IOSTANDARD = LVTTL;
+NET "num[2]" IOSTANDARD = LVTTL;
+NET "num[1]" IOSTANDARD = LVTTL;
+NET "num[0]" IOSTANDARD = LVTTL;
+NET "num[3]" PULLUP;
+NET "num[2]" PULLUP;
+NET "num[1]" PULLUP;
+NET "num[0]" PULLUP;
+NET "ROT_A" PULLUP;
+NET "ROT_B" PULLUP;

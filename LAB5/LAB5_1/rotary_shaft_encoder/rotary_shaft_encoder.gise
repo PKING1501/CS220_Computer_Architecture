@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="rotary_shaft_encoder.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="rotary_shaft_encoder.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="rotary_shaft_encoder.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="rotary_shaft_encoder.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="rotary_shaft_encoder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="rotary_shaft_encoder.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="rotary_shaft_encoder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="rotary_shaft_encoder.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="rotary_shaft_encoder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="rotary_shaft_encoder.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="rotary_shaft_encoder.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="rotary_shaft_encoder.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="rotary_shaft_encoder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="rotary_shaft_encoder.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rotary_shaft_encoder.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="rotary_shaft_encoder.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="rotary_shaft_encoder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="rotary_shaft_encoder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="rotary_shaft_encoder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="rotary_shaft_encoder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="rotary_shaft_encoder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="rotary_shaft_encoder.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="rotary_shaft_encoder.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="rotary_shaft_encoder.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rotary_shaft_encoder_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rotary_shaft_encoder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="rotary_shaft_encoder_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="rotary_shaft_encoder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="rotary_shaft_encoder_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="rotary_shaft_encoder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="rotary_shaft_encoder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="rotary_shaft_encoder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="rotary_shaft_encoder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rotary_shaft_encoder_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rotary_shaft_encoder_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="rotary_shaft_encoder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="rotary_shaft_encoder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rotary_shaft_encoder_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rotary_shaft_encoder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rotary_shaft_encoder_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="rotary_shaft_encoder_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="rotary_shaft_encoder_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rotary_shaft_encoder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1707904879" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1707904879">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904879" xil_pn:in_ck="-3410893315583755079" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1707904879">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904882" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2914514619348024596" xil_pn:start_ts="1707904882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904882" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3757151975517761070" xil_pn:start_ts="1707904882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904882" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3610138590650106964" xil_pn:start_ts="1707904882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904882" xil_pn:in_ck="-3410893315583755079" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1707904882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904885" xil_pn:in_ck="-3410893315583755079" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4421566090238507783" xil_pn:start_ts="1707904882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_beh.prj"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904886" xil_pn:in_ck="3210003357468233540" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7047791820306524516" xil_pn:start_ts="1707904885">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904902" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1707904902">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904902" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2569209488143299282" xil_pn:start_ts="1707904902">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904902" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3610138590650106964" xil_pn:start_ts="1707904902">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904902" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1707904902">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707904902" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2914514619348024596" xil_pn:start_ts="1707904902">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905076" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1707905076">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905076" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2364443064324128862" xil_pn:start_ts="1707905076">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905251" xil_pn:in_ck="-3410893315583755079" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8036759512638032615" xil_pn:start_ts="1707905240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.lso"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.ngc"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.ngr"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.prj"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.stx"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.syr"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.xst"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_beh.prj"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_stx_beh.prj"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905092" xil_pn:in_ck="-6667261855089403935" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7973080280840681065" xil_pn:start_ts="1707905091">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905260" xil_pn:in_ck="7777435166205334396" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1412827933253377385" xil_pn:start_ts="1707905253">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.bld"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.ngd"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905268" xil_pn:in_ck="-5593273291551463811" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1707905260">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.pcf"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_map.map"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_map.mrp"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_map.ncd"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_map.ngm"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_map.xrpt"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_summary.xml"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905288" xil_pn:in_ck="2442226860826807062" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1707905268">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.ncd"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.pad"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.par"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.ptwx"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.unroutes"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.xpi"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_pad.csv"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_pad.txt"/>
+      <outfile xil_pn:name="rotary_shaft_encoder_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905298" xil_pn:in_ck="-6667261855089411560" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1707905288">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.bgn"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.bit"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.drc"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905324" xil_pn:in_ck="-6667261855089424414" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1707905323">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1707905288" xil_pn:in_ck="6899556129938495993" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1707905284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.twr"/>
+      <outfile xil_pn:name="rotary_shaft_encoder.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

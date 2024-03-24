@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/users/btech/rajvm22/Documents/LAB6/seven_bit_adder/seven_bit_adder_isim_beh.exe" -prj "/users/btech/rajvm22/Documents/LAB6/seven_bit_adder/seven_bit_adder_beh.prj" "work.seven_bit_adder" "work.glbl" 

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/btech/srishtic22/Downloads/CS220/Lab_8_New/Registers/impact.xsl
+OUTFILE=/users/btech/srishtic22/Downloads/CS220/Lab_8_New/Registers/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/btech/srishtic22/Downloads/CS220/Lab_8_New/Registers
+LICENSE=iMPACT
+USER_INFO=iMPACT
